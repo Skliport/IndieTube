@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
     <title>IndieTube</title>
 </head>
 <body>
-   
+    <div>
+        <!--Header-->
+        <header class="header">
+            <!--Logo del header-->
+            <img class="header__img" src="img/indietube.png" width="175px" alt="indietube">
+            <!--Menu derecho del header-->
+            <div class="header__menu">
+                <!--Menu info-->
+                <div class="header__menu--profile">
+                    <img src="img/user-icon.png" alt="user-icon">
+                    <p>Perfil</p>
+                </div>
+                <ul>
+                    <li><a href="#">Cuenta</a></li>
+                    <li><a href="#">Cerrar sesi&oacute;n</a></li>
+                </ul>
+            </div>
+        </header>
+        <!--End header-->
+        <!--Buscador-->
+        <section class="finder">
+            <h2 class="finder__title">¿Que quieres ver hoy?</h2>
+            <input class="input" type="text" placeholder="Buscar...">
+        </section>
+        <!--End buscador-->
+        <!--Carrousel-->
+        <section class="carrousel">
+            <div class="carrousel__container">
+                <div class="carrousel-item">
+                    <img class="carrousel-item__img" src="https://images.pexels.com/photos/3807093/pexels-photo-3807093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="video">
+                    <div class="carrousel-item__details">
+                        <div>
+                            <img src="img/play-icon.png" alt="play">
+                            <img src="img/plus-icon.png" alt="plus">
+                        </div>
+                        <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                        <p class="carrousel-item__details--subtitle"> Hace una hora | 4 min</p>
+                    </div>
+                    
+                </div>
+                <div class="carrousel-item">
+                </div>
+            </div>
+        </section>
+        <!--End Carrousel-->
+    </div>
     
 </body>
 </html>
